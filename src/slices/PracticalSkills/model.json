@@ -1,0 +1,56 @@
+{
+  "id": "practical_skills",
+  "type": "SharedSlice",
+  "name": "PracticalSkills",
+  "description": "PracticalSkills",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "subline": {
+          "type": "Text",
+          "config": {
+            "label": "subline",
+            "placeholder": ""
+          }
+        },
+        "closingline": {
+          "type": "Text",
+          "config": {
+            "label": "closingLine",
+            "placeholder": ""
+          }
+        },
+        "practical_skills": {
+          "type": "Group",
+          "config": {
+            "label": "practical_skills",
+            "repeat": true,
+            "fields": {
+              "skill": {
+                "type": "Text",
+                "config": {
+                  "label": "skill",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

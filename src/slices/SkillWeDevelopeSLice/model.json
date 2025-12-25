@@ -1,0 +1,56 @@
+{
+  "id": "skill_we_develope_s_lice",
+  "type": "SharedSlice",
+  "name": "SkillWeDevelopeSLice",
+  "description": "SkillWeDevelopeSLice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "skills": {
+          "type": "Group",
+          "config": {
+            "label": "skills",
+            "repeat": true,
+            "fields": {
+              "area": {
+                "type": "Text",
+                "config": {
+                  "label": "area",
+                  "placeholder": ""
+                }
+              },
+              "activities": {
+                "type": "Text",
+                "config": {
+                  "label": "activities",
+                  "placeholder": ""
+                }
+              },
+              "icon": {
+                "type": "Text",
+                "config": {
+                  "label": "icon",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

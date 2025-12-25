@@ -1,0 +1,41 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"stages": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "broad",
+									"type": "Text"
+								}
+							],
+							[
+								"desc",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Labore magna consectetur quis commodo aliquip voluptate anim deserunt reprehenderit ex in aute tempor. Eiusmod dolore consectetur tempor id cupidatat sunt culpa sunt. Esse adipisicing aliqua qui minim quis aliquip sunt quis."
+											}
+										}
+									]
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

@@ -1,0 +1,65 @@
+{
+  "id": "sat_ks1_slice",
+  "type": "SharedSlice",
+  "name": "SatKs1Slice",
+  "description": "SatKs1Slice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "sections": {
+          "type": "Group",
+          "config": {
+            "label": "sections",
+            "repeat": true,
+            "fields": {
+              "ide": {
+                "type": "Text",
+                "config": {
+                  "label": "ide",
+                  "placeholder": ""
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "icon": {
+                "type": "Text",
+                "config": {
+                  "label": "icon",
+                  "placeholder": ""
+                }
+              },
+              "items": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "items",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

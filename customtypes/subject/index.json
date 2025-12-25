@@ -1,0 +1,164 @@
+{
+    "format": "page",
+    "id": "subject",
+    "label": "subject",
+    "repeatable": true,
+    "status": true,
+    "json": {
+        "Main": {
+            "uid": {
+                "type": "UID",
+                "config": {
+                    "label": "UID"
+                }
+            },
+            "keywords": {
+                "type": "Group",
+                "config": {
+                    "label": "keywords",
+                    "repeat": true,
+                    "fields": {
+                        "keyword": {
+                            "type": "Text",
+                            "config": {
+                                "label": "keyword",
+                                "placeholder": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "slices": {
+                "type": "Slices",
+                "fieldset": "Slice Zone",
+                "config": {
+                    "choices": {
+                        "teaching_style": {
+                            "type": "SharedSlice"
+                        },
+                        "level2_outcomes": {
+                            "type": "SharedSlice"
+                        },
+                        "exam_preparation_highlights": {
+                            "type": "SharedSlice"
+                        },
+                        "schdulede_option": {
+                            "type": "SharedSlice"
+                        },
+                        "how_homework_help": {
+                            "type": "SharedSlice"
+                        },
+                        "subject_cover_sloce": {
+                            "type": "SharedSlice"
+                        },
+                        "learning_path_slice": {
+                            "type": "SharedSlice"
+                        },
+                        "skill_we_develope_s_lice": {
+                            "type": "SharedSlice"
+                        },
+                        "university_preparation_slice": {
+                            "type": "SharedSlice"
+                        },
+                        "exam_boards": {
+                            "type": "SharedSlice"
+                        },
+                        "key_stage2_col": {
+                            "type": "SharedSlice"
+                        },
+                        "science_exam_board": {
+                            "type": "SharedSlice"
+                        },
+                        "course_level": {
+                            "type": "SharedSlice"
+                        },
+                        "cta_section": {
+                            "type": "SharedSlice"
+                        },
+                        "key_stages": {
+                            "type": "SharedSlice"
+                        },
+                        "language_highlight": {
+                            "type": "SharedSlice"
+                        },
+                        "learnig_outcome": {
+                            "type": "SharedSlice"
+                        },
+                        "languages_offer": {
+                            "type": "SharedSlice"
+                        },
+                        "explore_stage": {
+                            "type": "SharedSlice"
+                        },
+                        "hero": {
+                            "type": "SharedSlice"
+                        },
+                        "meet_our_tutor": {
+                            "type": "SharedSlice"
+                        },
+                        "pricing_section": {
+                            "type": "SharedSlice"
+                        },
+                        "skill_developed": {
+                            "type": "SharedSlice"
+                        },
+                        "practical_skills": {
+                            "type": "SharedSlice"
+                        },
+                        "study_resource": {
+                            "type": "SharedSlice"
+                        },
+                        "subject_we_teach": {
+                            "type": "SharedSlice"
+                        },
+                        "why_choose": {
+                            "type": "SharedSlice"
+                        },
+                        "testimonials": {
+                            "type": "SharedSlice"
+                        },
+                        "cta": {
+                            "type": "SharedSlice"
+                        },
+                        "faqs": {
+                            "type": "SharedSlice"
+                        },
+                        "alevel_focus": {
+                            "type": "SharedSlice"
+                        },
+                        "course_highlight": {
+                            "type": "SharedSlice"
+                        }
+                    }
+                }
+            }
+        },
+        "SEO & Metadata": {
+            "meta_title": {
+                "config": {
+                    "label": "Meta Title",
+                    "placeholder": "A title of the page used for social media and search engines"
+                },
+                "type": "Text"
+            },
+            "meta_description": {
+                "config": {
+                    "label": "Meta Description",
+                    "placeholder": "A brief summary of the page"
+                },
+                "type": "Text"
+            },
+            "meta_image": {
+                "config": {
+                    "constraint": {
+                        "height": 1260,
+                        "width": 2400
+                    },
+                    "label": "Meta Image",
+                    "thumbnails": []
+                },
+                "type": "Image"
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "explore_stage",
+  "type": "SharedSlice",
+  "name": "ExploreStage",
+  "description": "ExploreStage",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "stages": {
+          "type": "Group",
+          "config": {
+            "label": "stages",
+            "repeat": true,
+            "fields": {
+              "name": {
+                "type": "Text",
+                "config": {
+                  "label": "name",
+                  "placeholder": ""
+                }
+              },
+              "href": {
+                "type": "Text",
+                "config": {
+                  "label": "href",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

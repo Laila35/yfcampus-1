@@ -1,0 +1,56 @@
+{
+  "id": "tutor_why_choose",
+  "type": "SharedSlice",
+  "name": "TutorWhyChoose",
+  "description": "TutorWhyChoose",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "points": {
+          "type": "Group",
+          "config": {
+            "label": "points",
+            "repeat": true,
+            "fields": {
+              "point": {
+                "type": "Text",
+                "config": {
+                  "label": "point",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "qoute": {
+          "type": "Text",
+          "config": {
+            "label": "qoute",
+            "placeholder": ""
+          }
+        },
+        "author_name": {
+          "type": "Text",
+          "config": {
+            "label": "author_name",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

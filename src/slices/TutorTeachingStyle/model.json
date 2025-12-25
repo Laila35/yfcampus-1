@@ -1,0 +1,119 @@
+{
+  "id": "tutor_teaching_style",
+  "type": "SharedSlice",
+  "name": "TutorTeachingStyle",
+  "description": "TutorTeachingStyle",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "desc": {
+          "type": "StructuredText",
+          "config": {
+            "label": "desc",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "points": {
+          "type": "Group",
+          "config": {
+            "label": "points",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "icon": {
+                "type": "Text",
+                "config": {
+                  "label": "icon",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "hiringForSubjects",
+      "name": "HiringForSubjects",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "desc": {
+          "type": "StructuredText",
+          "config": {
+            "label": "desc",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "points": {
+          "type": "Group",
+          "config": {
+            "label": "points",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "icon": {
+                "type": "Text",
+                "config": {
+                  "label": "icon",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "cta": {
+          "type": "Link",
+          "config": {
+            "label": "cta",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

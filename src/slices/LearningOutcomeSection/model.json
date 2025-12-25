@@ -1,0 +1,35 @@
+{
+  "id": "learning_outcome_section",
+  "type": "SharedSlice",
+  "name": "LearningOutcomeSection",
+  "description": "LearningOutcomeSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "outcomes": {
+          "type": "Group",
+          "config": {
+            "label": "outcomes",
+            "repeat": true,
+            "fields": {
+              "outcome": {
+                "type": "Text",
+                "config": {
+                  "label": "outcome",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

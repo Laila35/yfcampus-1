@@ -1,0 +1,43 @@
+{
+  "id": "level2_topic_cover_section",
+  "type": "SharedSlice",
+  "name": "Level2TopicCoverSection",
+  "description": "Level2TopicCoverSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "topics": {
+          "type": "Group",
+          "config": {
+            "label": "topics",
+            "repeat": true,
+            "fields": {
+              "topic": {
+                "type": "Text",
+                "config": {
+                  "label": "topic",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

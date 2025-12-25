@@ -1,0 +1,58 @@
+{
+  "id": "exam_boards",
+  "type": "SharedSlice",
+  "name": "ExamBoards",
+  "description": "ExamBoards",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "desc": {
+          "type": "StructuredText",
+          "config": {
+            "label": "desc",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "examboards": {
+          "type": "Group",
+          "config": {
+            "label": "examBoards",
+            "repeat": true,
+            "fields": {
+              "board": {
+                "type": "Text",
+                "config": {
+                  "label": "board",
+                  "placeholder": ""
+                }
+              },
+              "href": {
+                "type": "Text",
+                "config": {
+                  "label": "href",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

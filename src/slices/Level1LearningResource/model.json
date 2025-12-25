@@ -1,0 +1,62 @@
+{
+  "id": "level1_learning_resource",
+  "type": "SharedSlice",
+  "name": "Level1LearningResource",
+  "description": "Level1LearningResource",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "resources": {
+          "type": "Group",
+          "config": {
+            "label": "resources",
+            "repeat": true,
+            "fields": {
+              "resource": {
+                "type": "Text",
+                "config": {
+                  "label": "resource",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "resource_link": {
+          "type": "Group",
+          "config": {
+            "label": "resource_link",
+            "repeat": true,
+            "fields": {
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "link",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

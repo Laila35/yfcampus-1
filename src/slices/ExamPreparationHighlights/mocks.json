@@ -1,0 +1,191 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"exam_section": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"ide",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "finger",
+									"type": "Text"
+								}
+							],
+							[
+								"button_name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "aware",
+									"type": "Text"
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "outside",
+									"type": "Text"
+								}
+							],
+							[
+								"points",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Dolore commodo nisi magna consequat irure dolore laborum fugiat non non sunt est reprehenderit aliquip. Est nostrud cillum quis eu cillum proident quis veniam id voluptate deserunt adipisicing."
+											}
+										}
+									]
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Magna eiusmod Lorem fugiat anim reprehenderit proident ea aute. Qui do dolor velit consectetur. Fugiat velit proident Lorem irure enim."
+											}
+										}
+									]
+								}
+							]
+						]
+					}
+				]
+			},
+			"cta": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"link",
+								{
+									"key": "ff92c3e0-2d5e-417e-beb7-7bd3e05316a0",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com",
+										"text": "package"
+									}
+								}
+							],
+							[
+								"ide",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "again",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "browseCategory",
+		"primary": {
+			"exam_section": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"ide",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "ran",
+									"type": "Text"
+								}
+							],
+							[
+								"button_name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "compare",
+									"type": "Text"
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "victory",
+									"type": "Text"
+								}
+							],
+							[
+								"points",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Sit consequat officia veniam proident est ipsum commodo fugiat esse duis ad sunt laborum cupidatat proident."
+											}
+										}
+									]
+								}
+							]
+						]
+					}
+				]
+			},
+			"cta": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"link",
+								{
+									"key": "50c08a5c-2028-4974-aa88-4a386294b9cf",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://slicemachine.dev",
+										"text": "grew"
+									}
+								}
+							],
+							[
+								"ide",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "trace",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

@@ -1,0 +1,264 @@
+"use client";
+import React, { useState, useEffect } from "react";
+import { Formik, Form } from "formik";
+import PhoneInput from "react-phone-input-2";
+import countriesList from "@/lib/countries.json";
+import "react-phone-input-2/lib/style.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import * as Yup from "yup";
+import countries from "i18n-iso-countries";
+import { FaEnvelope, FaGlobe, FaRegComment, FaUser } from "react-icons/fa";
+import axios from "axios";
+import { useRouter } from "next/navigation";
+
+countries.registerLocale(require("i18n-iso-countries/langs/en.json"));
+
+async function getIP() {
+  try {
+    const res = await fetch(
+      `https://ipinfo.io/?token=${process.env.NEXT_PUBLIC_IP_TOKEN}`
+    );
+    const data = await res.json();
+    return data;
+  } catch (error) {
+    console.error("Error fetching IP data:", error);
+    return null;
+  }
+}
+
+const Register = () => {
+  const [defaultCountry, setDefaultCountry] = useState("");
+  const [phoneCountryCode, setPhoneCountryCode] = useState("");
+  const [ip, setIp] = useState("");
+  const [region, setRegion] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const router = useRouter();
+
+  const handleMessage = async (data) => {
+    try {
+      const response = await axios.post("/api/first-response", data);
+      console.log("Message sending response is", response);
+    } catch (error) {
+      console.error("Error sending message:", error);
+    }
+  };
+
+  const submitContact = async (data, resetForm) => {
+    setLoading(true);
+    try {
+      const payload = {
+        FULL_NAME: data.name,
+        EMAIL: data.email,
+        PHONE_NO: `+${data.phone}`,
+        REMARKS: data.message,
+        COUNTRY: data.country,
+        STATE: region,
+        LEAD_IP: ip,
+        REQUEST_FORM: 16,
+      };
+      console.log("payload is ", payload);
+
+      const response = await axios.post(`/api/leadsform`, payload);
+
+      setTimeout(() => handleMessage(response.data.data), 0);
+      toast.success("Form submitted successfully!");
+      setFormSubmitted(true);
+      resetForm();
+      setTimeout(() => {
+        router.push("/thank-you");
+      }, 2000);
+    } catch (err) {
+      console.error("Error submitting form:", err);
+      toast.error(
+        err?.response?.data?.message || err.message || "An error occurred"
+      );
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    const fetchIP = async () => {
+      try {
+        const ipInfo = await getIP();
+        if (ipInfo && ipInfo.country) {
+          const countryCode = ipInfo.country.toUpperCase();
+          const countryName = countries.getName(countryCode, "en");
+          const matchedCountry = countriesList.countries.find(
+            (country) =>
+              country.short_name.toLowerCase() === countryName.toLowerCase()
+          );
+          if (matchedCountry) {
+            setDefaultCountry(matchedCountry.country_id);
+            setPhoneCountryCode(countryCode.toLowerCase());
+            setIp(ipInfo?.ip);
+            setRegion(ipInfo?.region);
+          }
+        }
+      } catch (error) {
+        console.error("Failed to fetch IP information:", error);
+      }
+    };
+    fetchIP();
+  }, []);
+
+  return (
+    <>
+      <ToastContainer />
+      <div className="font-semibold text-[18px] md:text-lg lg:text-[28px] text-teal-600 mb-8 text-center">
+      Get a Free Trial Class – No Commitment!
+      </div>
+
+      {!formSubmitted ? (
+        <Formik
+          initialValues={{
+            name: "",
+            email: "",
+            country: defaultCountry || "",
+            phone: "",
+            message: "",
+          }}
+          enableReinitialize
+          onSubmit={(values, actions) => {
+            submitContact(values, actions.resetForm);
+            actions.setSubmitting(false);
+          }}
+          validationSchema={Yup.object().shape({
+            name: Yup.string().required("Name is required"),
+            email: Yup.string().email().required("Email is required"),
+            country: Yup.string().required("Country is required"),
+            phone: Yup.string().required("Phone number is required"),
+            message: Yup.string(),
+          })}
+        >
+          {(props) => {
+            const {
+              values,
+              touched,
+              errors,
+              handleBlur,
+              handleChange,
+              setFieldValue,
+            } = props;
+            return (
+              <Form>
+                <div className="flex flex-col lg:flex-row gap-6 mb-8">
+                  <div className="w-full lg:w-1/2 relative flex flex-col">
+                    <FaUser className="absolute text-[14px] left-4 top-1/2 transform -translate-y-1/2 text-teal-200" />
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Enter your name"
+                      value={values.name}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
+                      className="w-full pl-11 text-[13px] py-3 px-4 rounded-md bg-grey border border-grey focus:border-gree-500 focus:ring-0 focus:bg-white placeholder:text-black"
+                      required
+                    />
+                  </div>
+                  <div className="w-full lg:w-1/2 relative flex flex-col">
+                    <FaEnvelope className="absolute text-[14px] left-4 top-1/2 transform -translate-y-1/2 text-teal-200" />
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Enter your email"
+                      value={values.email}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
+                      className="w-full pl-11 py-3 text-[13px] px-4 rounded-md bg-grey border border-grey focus:border-blue-500 focus:ring-0 focus:bg-white placeholder:text-black"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div className="flex flex-col lg:flex-row gap-6 mb-8">
+                  <div className="w-full lg:w-1/2 relative flex flex-col">
+                    <PhoneInput
+                      country={phoneCountryCode || "us"}
+                      placeholder="Phone Number"
+                      value={values.phone}
+                      onChange={(phone) => setFieldValue("phone", phone)}
+                      containerStyle={{ width: "100%" }}
+                      inputStyle={{
+                        width: "100%",
+                        paddingTop: "22px",
+                        paddingBottom: "22px",
+                        paddingLeft: "48px",
+                        paddingRight: "16px",
+                        borderRadius: "0.375rem",
+                        boxSizing: "border-box",
+                        fontSize: "13px",
+                      }}
+                      buttonStyle={{
+                        borderRight: "1px solid #d1d1d1",
+                        backgroundColor: "white",
+                      }}
+                      aria-describedby="phone-number"
+                    />
+                    {errors.phone && touched.phone && (
+                      <div className="text-red-500 mt-2">{errors.phone}</div>
+                    )}
+                  </div>
+
+                  <div className="w-full lg:w-1/2 relative flex flex-col">
+                    <FaGlobe className="absolute left-4 text-[14px]  top-1/2 transform -translate-y-1/2 text-teal-200" />
+                    <select
+                      name="country"
+                      aria-label="Select your country"
+                      value={values.country}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
+                      required
+                      className="w-full pl-11 py-[14px] text-[13px] px-4 mr-1 rounded-md bg-grey border border-grey focus:bg-transparent placeholder:text-black"
+                    >
+                      <option value="">Select country</option>
+                      {countriesList?.countries &&
+                      countriesList.countries.length > 0 ? (
+                        countriesList.countries.map((item, index) => (
+                          <option key={index} value={item?.country_id}>
+                            {item?.short_name}
+                          </option>
+                        ))
+                      ) : (
+                        <option disabled>No countries available</option>
+                      )}
+                    </select>
+                  </div>
+                </div>
+
+                <div className="mb-8 relative flex flex-col">
+                  <FaRegComment className="absolute text-[14px] left-4 top-1/3 transform -translate-y-1/2 text-teal-200" />
+                  <textarea
+                    name="message"
+                    placeholder="Enter your message"
+                    value={values.message}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    className="w-full pl-11 py-3 text-[13px] px-4 rounded-md bg-grey border border-grey focus:bg-transparent placeholder:text-black"
+                  />
+                </div>
+
+                <div className="mt-6">
+                <button
+  aria-label="Submit"
+  type="submit"
+  disabled={loading}
+  className="w-full p-3 font-semibold bg-gradient-to-r from-[#008080] to-[#2E8B57] text-white rounded-lg shadow-lg hover:shadow-2xl hover:bg-gradient-to-r hover:from-[#2E8B57] hover:to-[#008080] transition-all duration-500 ease-in-out transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-teal-600 focus:ring-offset-2"
+>
+  {loading ? "Submitting your form..." : "Send Message"}
+</button>
+                </div>
+              </Form>
+            );
+          }}
+        </Formik>
+      ) : (
+        <p>Redirecting to Thank You page...</p>
+      )}
+    </>
+  );
+};
+
+export default Register;

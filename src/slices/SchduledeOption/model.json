@@ -1,0 +1,56 @@
+{
+  "id": "schdulede_option",
+  "type": "SharedSlice",
+  "name": "SchduledeOption",
+  "description": "SchduledeOption",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "schedules": {
+          "type": "Group",
+          "config": {
+            "label": "schedules",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "desc": {
+                "type": "Text",
+                "config": {
+                  "label": "desc",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "tag_line": {
+          "type": "Text",
+          "config": {
+            "label": "tag_line",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

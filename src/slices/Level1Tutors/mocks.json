@@ -1,0 +1,56 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"author_name": {
+				"__TYPE__": "FieldContent",
+				"value": "familiar",
+				"type": "Text"
+			},
+			"quote": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Irure amet consectetur ullamco tempor non elit qui laboris incididunt sint."
+						}
+					}
+				]
+			},
+			"subline": {
+				"__TYPE__": "FieldContent",
+				"value": "hollow",
+				"type": "Text"
+			},
+			"qualities": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "sail",
+									"type": "Text"
+								}
+							],
+							[
+								"icon",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "electric",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

@@ -1,0 +1,51 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"desc": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Est reprehenderit ullamco cillum dolor aliqua mollit nisi et tempor veniam sint cupidatat enim aliqua."
+						}
+					}
+				]
+			},
+			"examboards": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"board",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "fifth",
+									"type": "Text"
+								}
+							],
+							[
+								"href",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "brother",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "necessary",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

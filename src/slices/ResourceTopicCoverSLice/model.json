@@ -1,0 +1,42 @@
+{
+  "id": "resource_topic_cover_s_lice",
+  "type": "SharedSlice",
+  "name": "ResourceTopicCoverSLice",
+  "description": "ResourceTopicCoverSLice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "topic": {
+          "type": "Group",
+          "config": {
+            "label": "Topic",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "icon": {
+                "type": "Text",
+                "config": {
+                  "label": "icon",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

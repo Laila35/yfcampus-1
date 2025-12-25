@@ -1,0 +1,41 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "equipment",
+				"type": "Text"
+			},
+			"points": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"point",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "friendly",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"cta": {
+				"__TYPE__": "LinkContent",
+				"key": "72615324-de99-45c0-a9ae-534e580b2106",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com",
+					"text": "may"
+				}
+			}
+		},
+		"items": []
+	}
+]

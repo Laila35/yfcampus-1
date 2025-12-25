@@ -1,0 +1,49 @@
+{
+  "id": "exam_board_alignment",
+  "type": "SharedSlice",
+  "name": "ExamBoardAlignment",
+  "description": "ExamBoardAlignment",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "subline": {
+          "type": "Text",
+          "config": {
+            "label": "subline",
+            "placeholder": ""
+          }
+        },
+        "closingline": {
+          "type": "Text",
+          "config": {
+            "label": "closingLine",
+            "placeholder": ""
+          }
+        },
+        "examborads": {
+          "type": "Group",
+          "config": {
+            "label": "examBorads",
+            "repeat": true,
+            "fields": {
+              "board": {
+                "type": "Text",
+                "config": {
+                  "label": "board",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

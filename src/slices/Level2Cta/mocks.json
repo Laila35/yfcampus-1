@@ -1,0 +1,29 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"desc": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Elit Lorem commodo qui non velit officia. Proident incididunt consectetur proident Lorem sint. Qui officia consectetur labore irure culpa fugiat laborum magna ipsum."
+						}
+					}
+				]
+			},
+			"cta": {
+				"__TYPE__": "LinkContent",
+				"key": "e5568dfb-0e37-49e4-9f30-edc0752ed3a4",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io",
+					"text": "evidence"
+				}
+			}
+		},
+		"items": []
+	}
+]

@@ -1,0 +1,39 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"lang": {
+				"__TYPE__": "FieldContent",
+				"value": "sharp",
+				"type": "Text"
+			},
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "date",
+				"type": "Text"
+			},
+			"points": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Eu veniam laborum do id. Eu non aute nulla reprehenderit pariatur aliquip officia culpa ipsum qui. Non tempor proident aute proident aute."
+						}
+					}
+				]
+			},
+			"cta": {
+				"__TYPE__": "LinkContent",
+				"key": "798c7c32-6a79-4a92-977e-587ee8f199f9",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io",
+					"text": "bound"
+				}
+			}
+		},
+		"items": []
+	}
+]

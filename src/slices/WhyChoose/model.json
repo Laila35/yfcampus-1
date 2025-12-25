@@ -1,0 +1,42 @@
+{
+  "id": "why_choose",
+  "type": "SharedSlice",
+  "name": "WhyChoose",
+  "description": "WhyChoose",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "points": {
+          "type": "Group",
+          "config": {
+            "label": "points",
+            "repeat": true,
+            "fields": {
+              "builts_point": {
+                "type": "Text",
+                "config": {
+                  "label": "builts_point",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "paper_structure",
+  "type": "SharedSlice",
+  "name": "PaperStructure",
+  "description": "PaperStructure",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "sections": {
+          "type": "Group",
+          "config": {
+            "label": "sections",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "calculator": {
+                "type": "Text",
+                "config": {
+                  "label": "calculator",
+                  "placeholder": ""
+                }
+              },
+              "question": {
+                "type": "Text",
+                "config": {
+                  "label": "question",
+                  "placeholder": ""
+                }
+              },
+              "minutes": {
+                "type": "Text",
+                "config": {
+                  "label": "minutes",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "question_included": {
+          "type": "Group",
+          "config": {
+            "label": "question_included",
+            "repeat": true,
+            "fields": {
+              "question_type": {
+                "type": "Text",
+                "config": {
+                  "label": "question_type",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "topiccover": {
+          "type": "Group",
+          "config": {
+            "label": "TopicCover",
+            "repeat": true,
+            "fields": {
+              "topic": {
+                "type": "Text",
+                "config": {
+                  "label": "topic",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

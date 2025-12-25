@@ -1,0 +1,39 @@
+{
+  "id": "resource_exam_brd_link",
+  "type": "SharedSlice",
+  "name": "ResourceExamBrdLink",
+  "description": "ResourceExamBrdLink",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "boardlink": {
+          "type": "Group",
+          "config": {
+            "label": "boardLink",
+            "repeat": true,
+            "fields": {
+              "cta": {
+                "type": "Link",
+                "config": {
+                  "label": "cta",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

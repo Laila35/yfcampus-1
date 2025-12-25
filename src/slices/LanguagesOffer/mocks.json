@@ -1,0 +1,58 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"languages": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "leave",
+									"type": "Text"
+								}
+							],
+							[
+								"desc",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Magna ipsum labore non cupidatat mollit sit laboris deserunt eiusmod ut incididunt incididunt. In mollit sint sint excepteur laborum labore magna ipsum incididunt eiusmod."
+											}
+										}
+									]
+								}
+							],
+							[
+								"href",
+								{
+									"key": "1e295ca1-e9e8-4007-9d55-1ae6fd083912",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com",
+										"text": "accident"
+									}
+								}
+							]
+						]
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "brain",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

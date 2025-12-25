@@ -1,0 +1,44 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "height",
+				"type": "Text"
+			},
+			"subtitle": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Elit culpa cupidatat dolore aute."
+						}
+					}
+				]
+			},
+			"number": {
+				"__TYPE__": "FieldContent",
+				"value": "result",
+				"type": "Text"
+			},
+			"email": {
+				"__TYPE__": "FieldContent",
+				"value": "walk",
+				"type": "Text"
+			},
+			"cta": {
+				"key": "f20459c2-efb0-4261-8f07-906b16ad2a43",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com",
+					"text": "near"
+				}
+			}
+		},
+		"items": []
+	}
+]

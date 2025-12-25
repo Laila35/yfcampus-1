@@ -1,0 +1,42 @@
+{
+  "id": "exam_learing_outcomes",
+  "type": "SharedSlice",
+  "name": "ExamLearingOutcomes",
+  "description": "ExamLearingOutcomes",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "outcomes": {
+          "type": "Group",
+          "config": {
+            "label": "outcomes",
+            "repeat": true,
+            "fields": {
+              "outcome": {
+                "type": "Text",
+                "config": {
+                  "label": "outcome",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

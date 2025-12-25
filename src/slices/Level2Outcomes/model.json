@@ -1,0 +1,42 @@
+{
+  "id": "level2_outcomes",
+  "type": "SharedSlice",
+  "name": "Level2Outcomes",
+  "description": "Level2Outcomes",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "outcomes": {
+          "type": "Group",
+          "config": {
+            "label": "outcomes",
+            "repeat": true,
+            "fields": {
+              "outcome": {
+                "type": "Text",
+                "config": {
+                  "label": "outcome",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

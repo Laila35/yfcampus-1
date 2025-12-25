@@ -1,0 +1,128 @@
+{
+  "id": "key_stages",
+  "type": "SharedSlice",
+  "name": "KeyStages",
+  "description": "KeyStages",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "stages": {
+          "type": "Group",
+          "config": {
+            "label": "stages",
+            "repeat": true,
+            "fields": {
+              "stage": {
+                "type": "Text",
+                "config": {
+                  "label": "stage",
+                  "placeholder": ""
+                }
+              },
+              "age": {
+                "type": "Text",
+                "config": {
+                  "label": "age",
+                  "placeholder": ""
+                }
+              },
+              "focus": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "focus",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+              }
+            }
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "keyStages2",
+      "name": "KeyStages2",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "stages": {
+          "type": "Group",
+          "config": {
+            "label": "stages",
+            "repeat": true,
+            "fields": {
+              "stage": {
+                "type": "Text",
+                "config": {
+                  "label": "stage",
+                  "placeholder": ""
+                }
+              },
+              "age": {
+                "type": "Text",
+                "config": {
+                  "label": "age",
+                  "placeholder": ""
+                }
+              },
+              "focus": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "focus",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+              }
+            }
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "cta": {
+          "type": "Group",
+          "config": {
+            "label": "cta",
+            "repeat": true,
+            "fields": {
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "link",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

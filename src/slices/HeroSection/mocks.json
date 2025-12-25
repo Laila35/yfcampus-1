@@ -1,0 +1,65 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "pool",
+				"type": "Text"
+			},
+			"desc": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Sit elit id reprehenderit Lorem ut aliquip deserunt nulla fugiat amet in. Excepteur aliquip qui laboris fugiat excepteur. Amet proident amet et reprehenderit pariatur ut cillum ad ex do ullamco aliqua do."
+						}
+					}
+				]
+			},
+			"cta": {
+				"key": "1cf83152-90d9-418c-b569-9ad147a05992",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "flight"
+				}
+			},
+			"meet_our_tutor": {
+				"key": "e9791228-6a3b-4431-8f81-63912ae65402",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com",
+					"text": "log"
+				}
+			},
+			"image": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
+					"width": 3560,
+					"height": 5340
+				},
+				"url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
+				"width": 3560,
+				"height": 5340,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "swung",
+				"thumbnails": {}
+			}
+		},
+		"items": []
+	}
+]

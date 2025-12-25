@@ -1,0 +1,42 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "everyone",
+				"type": "Text"
+			},
+			"points": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"point",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "throw",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"qoute": {
+				"__TYPE__": "FieldContent",
+				"value": "unhappy",
+				"type": "Text"
+			},
+			"author_name": {
+				"__TYPE__": "FieldContent",
+				"value": "gain",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

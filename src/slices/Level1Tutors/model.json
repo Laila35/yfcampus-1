@@ -1,0 +1,65 @@
+{
+  "id": "level1_tutors",
+  "type": "SharedSlice",
+  "name": "Level1Tutors",
+  "description": "Level1Tutors",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "author_name": {
+          "type": "Text",
+          "config": {
+            "label": "author_name",
+            "placeholder": ""
+          }
+        },
+        "quote": {
+          "type": "StructuredText",
+          "config": {
+            "label": "quote",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "subline": {
+          "type": "Text",
+          "config": {
+            "label": "subline",
+            "placeholder": ""
+          }
+        },
+        "qualities": {
+          "type": "Group",
+          "config": {
+            "label": "qualities",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "icon": {
+                "type": "Text",
+                "config": {
+                  "label": "icon",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

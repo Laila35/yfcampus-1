@@ -1,0 +1,32 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"subheading": {
+				"__TYPE__": "FieldContent",
+				"value": "drop",
+				"type": "Text"
+			},
+			"subject": {
+				"key": "13337dfb-d2a0-4b45-b0d1-e1aaf5436b12",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com",
+					"text": "build"
+				}
+			},
+			"all_subjects": {
+				"key": "58d985f8-4cc8-412f-bdd1-fbcbde808154",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://twitter.com",
+					"text": "operation"
+				}
+			}
+		},
+		"items": []
+	}
+]

@@ -1,0 +1,32 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"subheading": {
+				"__TYPE__": "FieldContent",
+				"value": "research",
+				"type": "Text"
+			},
+			"subject": {
+				"key": "96696ef7-8d12-4637-b90c-509a5bbdc912",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io",
+					"text": "ourselves"
+				}
+			},
+			"all_subjects": {
+				"__TYPE__": "LinkContent",
+				"key": "823eecb5-71b1-40ca-8701-5af00cd50fb5",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com",
+					"text": "blue"
+				}
+			}
+		},
+		"items": []
+	}
+]

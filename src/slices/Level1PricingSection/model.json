@@ -1,0 +1,48 @@
+{
+  "id": "level1_pricing_section",
+  "type": "SharedSlice",
+  "name": "Level1PricingSection",
+  "description": "Level1PricingSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "subheading": {
+          "type": "Text",
+          "config": {
+            "label": "subheading",
+            "placeholder": ""
+          }
+        },
+        "subject": {
+          "type": "Link",
+          "config": {
+            "label": "subject",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        },
+        "all_subjects": {
+          "type": "Link",
+          "config": {
+            "label": "all_subjects",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"levels": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"level",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "due",
+									"type": "Text"
+								}
+							],
+							[
+								"suitablefor",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "stepped",
+									"type": "Text"
+								}
+							],
+							[
+								"desc",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Est aliquip incididunt irure esse culpa veniam reprehenderit nostrud sunt laboris elit mollit irure ut. Deserunt sit do dolor dolor ut adipisicing Lorem aute. Irure occaecat qui aliquip nostrud cupidatat non commodo culpa consectetur anim est."
+											}
+										}
+									]
+								}
+							]
+						]
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "broad",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

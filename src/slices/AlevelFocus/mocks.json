@@ -1,0 +1,54 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "castle",
+				"type": "Text"
+			},
+			"focus_points": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"point",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "upward",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"intro": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Voluptate Lorem culpa et nulla enim in culpa anim consequat quis minim officia laboris. Enim elit est culpa irure deserunt. Magna magna tempor sint eu ea et laborum fugiat ullamco officia cupidatat aliqua."
+						}
+					}
+				]
+			},
+			"subline": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Amet occaecat adipisicing cupidatat est deserunt dolor ut. Reprehenderit cillum adipisicing consequat fugiat."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

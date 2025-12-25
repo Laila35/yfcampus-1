@@ -1,0 +1,29 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"desc": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Lorem aute et commodo enim ad nostrud deserunt occaecat et. Labore consequat officia pariatur mollit nulla aliquip reprehenderit anim culpa fugiat. Exercitation tempor voluptate est et do adipisicing do."
+						}
+					}
+				]
+			},
+			"cta": {
+				"key": "0c4c6588-297f-43f7-855f-4453ca163114",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://twitter.com",
+					"text": "carry"
+				}
+			}
+		},
+		"items": []
+	}
+]

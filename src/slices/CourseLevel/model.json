@@ -1,0 +1,58 @@
+{
+  "id": "course_level",
+  "type": "SharedSlice",
+  "name": "CourseLevel",
+  "description": "CourseLevel",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "levels": {
+          "type": "Group",
+          "config": {
+            "label": "levels",
+            "repeat": true,
+            "fields": {
+              "level": {
+                "type": "Text",
+                "config": {
+                  "label": "level",
+                  "placeholder": ""
+                }
+              },
+              "suitablefor": {
+                "type": "Text",
+                "config": {
+                  "label": "suitableFor",
+                  "placeholder": ""
+                }
+              },
+              "desc": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "desc",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+              }
+            }
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

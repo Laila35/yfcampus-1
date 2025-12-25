@@ -1,0 +1,72 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"teachingitems": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"icon",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "fog",
+									"type": "Text"
+								}
+							],
+							[
+								"label",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "hat",
+									"type": "Text"
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "In qui mollit ipsum sunt elit ad sint eiusmod fugiat mollit dolor. Quis sint non excepteur dolor sit in culpa tempor mollit proident tempor sunt. Amet ex consequat sit id incididunt laboris esse veniam eiusmod ad."
+											}
+										}
+									]
+								}
+							],
+							[
+								"color",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "laugh",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"subtitle": {
+				"__TYPE__": "FieldContent",
+				"value": "thought",
+				"type": "Text"
+			},
+			"tag_line": {
+				"__TYPE__": "FieldContent",
+				"value": "massage",
+				"type": "Text"
+			},
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "third",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

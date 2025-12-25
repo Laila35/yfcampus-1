@@ -1,0 +1,37 @@
+{
+  "id": "science_exam_board",
+  "type": "SharedSlice",
+  "name": "ScienceExamBoard",
+  "description": "ScienceExamBoard",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "examborads": {
+          "type": "Group",
+          "config": {
+            "label": "examBorads",
+            "repeat": true,
+            "fields": {
+              "desc": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "desc",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

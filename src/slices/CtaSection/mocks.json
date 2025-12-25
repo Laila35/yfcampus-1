@@ -1,0 +1,44 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "stiff",
+				"type": "Text"
+			},
+			"subtitle": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Amet non laborum id elit sint et sint excepteur laborum cupidatat fugiat nulla est. Nostrud nisi sint dolor laborum eiusmod."
+						}
+					}
+				]
+			},
+			"number": {
+				"__TYPE__": "FieldContent",
+				"value": "as",
+				"type": "Text"
+			},
+			"email": {
+				"__TYPE__": "FieldContent",
+				"value": "evidence",
+				"type": "Text"
+			},
+			"cta": {
+				"__TYPE__": "LinkContent",
+				"key": "0ff658c8-4e4e-45fe-af8c-4e4f33d1392e",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "choose"
+				}
+			}
+		},
+		"items": []
+	}
+]

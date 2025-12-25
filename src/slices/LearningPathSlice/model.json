@@ -1,0 +1,49 @@
+{
+  "id": "learning_path_slice",
+  "type": "SharedSlice",
+  "name": "LearningPathSlice",
+  "description": "LearningPathSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "stages": {
+          "type": "Group",
+          "config": {
+            "label": "stages",
+            "repeat": true,
+            "fields": {
+              "age": {
+                "type": "Text",
+                "config": {
+                  "label": "age",
+                  "placeholder": ""
+                }
+              },
+              "stage": {
+                "type": "Text",
+                "config": {
+                  "label": "stage",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

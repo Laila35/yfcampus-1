@@ -1,0 +1,90 @@
+{
+    "format": "page",
+    "id": "level2",
+    "label": "level2",
+    "repeatable": true,
+    "status": true,
+    "json": {
+        "Main": {
+            "uid": {
+                "type": "UID",
+                "config": {
+                    "label": "UID"
+                }
+            },
+            "keywords": {
+                "type": "Group",
+                "config": {
+                    "label": "keywords",
+                    "repeat": true,
+                    "fields": {
+                        "keyword": {
+                            "type": "Text",
+                            "config": {
+                                "label": "keyword",
+                                "placeholder": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "parenturl": {
+                "type": "Text",
+                "config": {
+                    "label": "parentUrl",
+                    "placeholder": ""
+                }
+            },
+            "slices": {
+                "type": "Slices",
+                "fieldset": "Slice Zone",
+                "config": {
+                    "choices": {
+                        "level2_cta": {
+                            "type": "SharedSlice"
+                        },
+                        "level2_faqs": {
+                            "type": "SharedSlice"
+                        },
+                        "level2_outcomes": {
+                            "type": "SharedSlice"
+                        },
+                        "level2_topic_cover_section": {
+                            "type": "SharedSlice"
+                        },
+                        "level2_hero_section": {
+                            "type": "SharedSlice"
+                        }
+                    }
+                }
+            }
+        },
+        "SEO & Metadata": {
+            "meta_title": {
+                "config": {
+                    "label": "Meta Title",
+                    "placeholder": "A title of the page used for social media and search engines"
+                },
+                "type": "Text"
+            },
+            "meta_description": {
+                "config": {
+                    "label": "Meta Description",
+                    "placeholder": "A brief summary of the page"
+                },
+                "type": "Text"
+            },
+            "meta_image": {
+                "config": {
+                    "constraint": {
+                        "height": 1260,
+                        "width": 2400
+                    },
+                    "label": "Meta Image",
+                    "thumbnails": []
+                },
+                "type": "Image"
+            }
+        }
+    }
+}

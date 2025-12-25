@@ -1,0 +1,90 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"meet_our_tutor": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"tutorpoints",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "explore",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"qoute": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Magna Lorem qui est Lorem eiusmod. Occaecat deserunt minim amet laborum do ex mollit dolor laboris est labore."
+						}
+					}
+				]
+			},
+			"author": {
+				"__TYPE__": "FieldContent",
+				"value": "arrow",
+				"type": "Text"
+			},
+			"subline": {
+				"__TYPE__": "FieldContent",
+				"value": "topic",
+				"type": "Text"
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "meetOurTutor1",
+		"primary": {
+			"meet_our_tutor": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": []
+					}
+				]
+			},
+			"qoute": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aute commodo amet excepteur amet nisi tempor ex laboris sit ad consectetur et do magna do. Eu id ad incididunt ipsum et incididunt commodo laborum pariatur excepteur nisi deserunt."
+						}
+					}
+				]
+			},
+			"author": {
+				"__TYPE__": "FieldContent",
+				"value": "cast",
+				"type": "Text"
+			},
+			"subline": {
+				"__TYPE__": "FieldContent",
+				"value": "depth",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

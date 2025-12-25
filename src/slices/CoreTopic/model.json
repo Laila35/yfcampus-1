@@ -1,0 +1,58 @@
+{
+  "id": "core_topic",
+  "type": "SharedSlice",
+  "name": "CoreTopic",
+  "description": "CoreTopic",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "topics": {
+          "type": "Group",
+          "config": {
+            "label": "topics",
+            "repeat": true,
+            "fields": {
+              "topic": {
+                "type": "Text",
+                "config": {
+                  "label": "topic",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "years": {
+          "type": "Group",
+          "config": {
+            "label": "years",
+            "repeat": true,
+            "fields": {
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "label",
+                  "placeholder": ""
+                }
+              },
+              "href": {
+                "type": "Text",
+                "config": {
+                  "label": "href",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

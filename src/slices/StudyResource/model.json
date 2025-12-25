@@ -1,0 +1,69 @@
+{
+  "id": "study_resource",
+  "type": "SharedSlice",
+  "name": "StudyResource",
+  "description": "StudyResource",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "subline": {
+          "type": "Text",
+          "config": {
+            "label": "subline",
+            "placeholder": ""
+          }
+        },
+        "resourse_items": {
+          "type": "Group",
+          "config": {
+            "label": "resourse_items",
+            "repeat": true,
+            "fields": {
+              "item": {
+                "type": "Text",
+                "config": {
+                  "label": "item",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "links": {
+          "type": "Group",
+          "config": {
+            "label": "links",
+            "repeat": true,
+            "fields": {
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "link",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

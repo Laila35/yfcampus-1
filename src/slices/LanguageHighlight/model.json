@@ -1,0 +1,146 @@
+{
+  "id": "language_highlight",
+  "type": "SharedSlice",
+  "name": "LanguageHighlight",
+  "description": "LanguageHighlight",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "languagehighlight": {
+          "type": "Group",
+          "config": {
+            "label": "LanguageHighlight",
+            "repeat": true,
+            "fields": {
+              "lang": {
+                "type": "Text",
+                "config": {
+                  "label": "lang",
+                  "placeholder": ""
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "points": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "points",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+              },
+              "cta": {
+                "type": "Link",
+                "config": {
+                  "label": "cta",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "languageHighlight1",
+      "name": "Language_highlight1",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "languagehighlight": {
+          "type": "Group",
+          "config": {
+            "label": "LanguageHighlight",
+            "repeat": true,
+            "fields": {
+              "lang": {
+                "type": "Text",
+                "config": {
+                  "label": "lang",
+                  "placeholder": ""
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "points": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "points",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "subtitle",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "ctasec": {
+          "type": "Group",
+          "config": {
+            "label": "ctasec",
+            "repeat": true,
+            "fields": {
+              "cta": {
+                "type": "Link",
+                "config": {
+                  "label": "cta",
+                  "placeholder": "",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": true,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

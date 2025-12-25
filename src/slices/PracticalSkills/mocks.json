@@ -1,0 +1,42 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "hot",
+				"type": "Text"
+			},
+			"subline": {
+				"__TYPE__": "FieldContent",
+				"value": "land",
+				"type": "Text"
+			},
+			"closingline": {
+				"__TYPE__": "FieldContent",
+				"value": "begun",
+				"type": "Text"
+			},
+			"practical_skills": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"skill",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "expect",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

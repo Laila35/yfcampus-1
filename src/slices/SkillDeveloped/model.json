@@ -1,0 +1,42 @@
+{
+  "id": "skill_developed",
+  "type": "SharedSlice",
+  "name": "SkillDeveloped",
+  "description": "SkillDeveloped",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        },
+        "learn_skill": {
+          "type": "Group",
+          "config": {
+            "label": "learn_skill",
+            "repeat": true,
+            "fields": {
+              "skill": {
+                "type": "Text",
+                "config": {
+                  "label": "skill",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

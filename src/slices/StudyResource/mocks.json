@@ -1,0 +1,59 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "lucky",
+				"type": "Text"
+			},
+			"subline": {
+				"__TYPE__": "FieldContent",
+				"value": "almost",
+				"type": "Text"
+			},
+			"resourse_items": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"item",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "per",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"links": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"link",
+								{
+									"__TYPE__": "LinkContent",
+									"key": "143a6ddd-cdf8-4fcf-a3a1-890b85a93f88",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com",
+										"text": "movie"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

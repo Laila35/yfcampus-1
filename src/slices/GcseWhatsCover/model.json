@@ -1,0 +1,42 @@
+{
+  "id": "gcse_whats_cover",
+  "type": "SharedSlice",
+  "name": "GcseWhatsCover",
+  "description": "GcseWhatsCover",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "topics": {
+          "type": "Group",
+          "config": {
+            "label": "topics",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "details": {
+                "type": "Text",
+                "config": {
+                  "label": "details",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

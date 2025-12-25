@@ -1,0 +1,133 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"stages": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"stage",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "deer",
+									"type": "Text"
+								}
+							],
+							[
+								"age",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "immediately",
+									"type": "Text"
+								}
+							],
+							[
+								"focus",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Esse aliquip eiusmod voluptate do consectetur consectetur aute incididunt commodo exercitation amet ad laborum nulla."
+											}
+										}
+									]
+								}
+							]
+						]
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "key",
+				"type": "Text"
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "keyStages2",
+		"primary": {
+			"stages": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"stage",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "out",
+									"type": "Text"
+								}
+							],
+							[
+								"age",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "magnet",
+									"type": "Text"
+								}
+							],
+							[
+								"focus",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Consectetur culpa adipisicing officia tempor id deserunt aliquip. Sint tempor est officia ullamco reprehenderit minim. Nulla tempor eu voluptate do anim occaecat ad dolor sit laborum dolor velit."
+											}
+										}
+									]
+								}
+							]
+						]
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "suppose",
+				"type": "Text"
+			},
+			"cta": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"link",
+								{
+									"__TYPE__": "LinkContent",
+									"key": "551ef827-af07-47db-9b16-b4c281206eed",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://twitter.com",
+										"text": "blood"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

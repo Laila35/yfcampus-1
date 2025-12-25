@@ -1,0 +1,56 @@
+{
+  "id": "how_homework_help",
+  "type": "SharedSlice",
+  "name": "HowHomeworkHelp",
+  "description": "HowHomeworkHelp",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "steps": {
+          "type": "Group",
+          "config": {
+            "label": "steps",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "description",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "subline": {
+          "type": "Text",
+          "config": {
+            "label": "subline",
+            "placeholder": ""
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "heading",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

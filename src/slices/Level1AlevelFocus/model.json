@@ -1,0 +1,53 @@
+{
+  "id": "level1_alevel_focus",
+  "type": "SharedSlice",
+  "name": "Level1AlevelFocus",
+  "description": "Level1AlevelFocus",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "subline": {
+          "type": "StructuredText",
+          "config": {
+            "label": "subline",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "closingline": {
+          "type": "StructuredText",
+          "config": {
+            "label": "closingLine",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "topics": {
+          "type": "Group",
+          "config": {
+            "label": "topics",
+            "repeat": true,
+            "fields": {
+              "topic": {
+                "type": "Text",
+                "config": {
+                  "label": "topic",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

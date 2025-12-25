@@ -1,0 +1,42 @@
+{
+  "id": "subject_cover_sloce",
+  "type": "SharedSlice",
+  "name": "SubjectCoverSloce",
+  "description": "SubjectCoverSloce",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "subjects": {
+          "type": "Group",
+          "config": {
+            "label": "subjects",
+            "repeat": true,
+            "fields": {
+              "subject": {
+                "type": "Text",
+                "config": {
+                  "label": "subject",
+                  "placeholder": ""
+                }
+              },
+              "description": {
+                "type": "Text",
+                "config": {
+                  "label": "description",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

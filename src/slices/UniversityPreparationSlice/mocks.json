@@ -1,0 +1,49 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "stream",
+				"type": "Text"
+			},
+			"items": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"item",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "police",
+									"type": "Text"
+								}
+							],
+							[
+								"icon",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "layers",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"cta": {
+				"key": "8927e62d-9ee5-4888-9b6b-4965d03a7a85",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "city"
+				}
+			}
+		},
+		"items": []
+	}
+]

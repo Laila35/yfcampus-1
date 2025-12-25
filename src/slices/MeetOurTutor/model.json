@@ -1,0 +1,100 @@
+{
+  "id": "meet_our_tutor",
+  "type": "SharedSlice",
+  "name": "MeetOurTutor",
+  "description": "MeetOurTutor",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "meet_our_tutor": {
+          "type": "Group",
+          "config": {
+            "label": "meet_our_tutor",
+            "repeat": true,
+            "fields": {
+              "tutorpoints": {
+                "type": "Text",
+                "config": {
+                  "label": "tutorPoints",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "qoute": {
+          "type": "StructuredText",
+          "config": {
+            "label": "qoute",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "author": {
+          "type": "Text",
+          "config": {
+            "label": "author",
+            "placeholder": ""
+          }
+        },
+        "subline": {
+          "type": "Text",
+          "config": {
+            "label": "subline",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "meetOurTutor1",
+      "name": "meetOurTutor1",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "meet_our_tutor": {
+          "type": "Group",
+          "config": {
+            "label": "meet_our_tutor",
+            "repeat": true,
+            "fields": {}
+          }
+        },
+        "qoute": {
+          "type": "StructuredText",
+          "config": {
+            "label": "qoute",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "author": {
+          "type": "Text",
+          "config": {
+            "label": "author",
+            "placeholder": ""
+          }
+        },
+        "subline": {
+          "type": "Text",
+          "config": {
+            "label": "subline",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

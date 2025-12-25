@@ -1,0 +1,37 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"subline": {
+				"__TYPE__": "FieldContent",
+				"value": "selection",
+				"type": "Text"
+			},
+			"closingline": {
+				"__TYPE__": "FieldContent",
+				"value": "active",
+				"type": "Text"
+			},
+			"examborads": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"board",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "special",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

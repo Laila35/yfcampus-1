@@ -1,0 +1,87 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"sections": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "most",
+									"type": "Text"
+								}
+							],
+							[
+								"calculator",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "contain",
+									"type": "Text"
+								}
+							],
+							[
+								"question",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "lost",
+									"type": "Text"
+								}
+							],
+							[
+								"minutes",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "strong",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"question_included": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"question_type",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "pilot",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"topiccover": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"topic",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "bear",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
