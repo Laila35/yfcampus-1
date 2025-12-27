@@ -12,7 +12,7 @@ const Hero = ({ slice }) => {
                       lg:flex lg:items-start lg:gap-20">
 
         {/* FORM — LEFT ON DESKTOP */}
-        <div className="w-full lg:w-3/5 mt-14 lg:mt-0
+        <div className="w-full lg:w-4/5 mt-14 lg:mt-0
                         flex justify-center
                         order-2 lg:order-1">
           <div className="w-full max-w-xl rounded-2xl
