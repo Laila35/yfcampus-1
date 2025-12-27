@@ -27,12 +27,12 @@ const WhyChoose = ({ slice }) => {
 
 {/* Points */}
 
-<div className="flex flex-col lg:flex-row flex-wrap max-w-5xl mx-auto gap-6 justify-center">
+<div className="flex flex-col sm:flex-wrap sm:flex-row max-w-5xl mx-auto gap-6 justify-center">
   {points.map((point, index) => (
     <div
       key={index}
       className="
-        flex flex-col items-center justify-center text-center
+        flex flex-col items-center justify-center text-center 
         bg-gray-50 dark:bg-gray-800/50
         p-6 rounded-xl
 
@@ -47,24 +47,23 @@ const WhyChoose = ({ slice }) => {
 
         cursor-pointer
 
-        w-full lg:flex-1
-        lg:min-w-[200px] lg:max-w-[300px]
+        w-full sm:flex-1
+        sm:min-w-[200px] sm:max-w-[300px]
       "
     >
       <BadgeCheck className="w-6 h-6 text-teal-600 mb-2" />
 
-      <p
-        className="
-          text-lg font-medium leading-relaxed
-          text-gray-800 dark:text-gray-200
-          line-clamp-2
-        "
-      >
+      <p className="
+        text-lg font-medium leading-relaxed
+        text-gray-800 dark:text-gray-200
+        line-clamp-2
+      ">
         {point}
       </p>
     </div>
   ))}
 </div>
+
 
 
 
