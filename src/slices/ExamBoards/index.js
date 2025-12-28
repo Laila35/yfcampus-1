@@ -12,7 +12,7 @@ const ExamBoards = ({ slice ,context}) => {
         <section
             data-slice-type={slice.slice_type}
             data-slice-variation={slice.variation}
-            className="py-16 px-6 md:px-10 text-center mx-auto max-w-6xl"
+            className="py-2 px-6 md:px-10 text-center mx-auto max-w-6xl"
         >
           
       {/* Heading */}

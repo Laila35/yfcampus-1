@@ -30,7 +30,7 @@ const TeachingApproach = () => {
   };
 
   return (
-    <section className="py-16 px-6 md:px-12 lg:px-24">
+    <section className="py-8 px-6 md:px-8 lg:px-24">
       {/* Heading */}
       <div className="text-center mb-12">
         <h2 className="text-3xl font-semibold text-gray-900 mb-4">

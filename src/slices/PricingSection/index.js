@@ -12,16 +12,16 @@ const PricingSection = ({ slice }) => {
         <section
             data-slice-type={slice.slice_type}
             data-slice-variation={slice.variation}
-            className="flex justify-center items-center min-h-screen  px-6"
+            className="flex justify-center items-center py-12 px-6"
         >
              
-      <div className="flex flex-col items-center justify-center bg-gradient-to-r from-teal-800 to-teal-600 text-white py-10 px-8 rounded-3xl w-[90%] sm:w-[80%] max-w-3xl text-center shadow-lg">
+      <div className="flex flex-col items-center justify-center bg-gradient-to-r from-teal-800 to-teal-600 text-white py-8 px-6 rounded-3xl w-[90%] sm:w-[80%] max-w-3xl text-center shadow-lg">
         <h2 className="text-3xl font-bold mb-4">Pricing</h2>
         <p className="text-lg md:text-xl leading-relaxed">
           {slice.primary.subheading}
         </p>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
           <Link href={slice.primary.subject.url || "#"}>
            <Button
   variant="link"

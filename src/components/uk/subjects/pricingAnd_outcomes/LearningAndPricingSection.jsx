@@ -6,7 +6,7 @@ import PricingAndFreeTrial from "./PricingAndFreeTrial";
 const LearningAndPricingSection = () => {
   return (
     <section
-      className="py-20 px-6 md:px-12 lg:px-24"
+      className="py-10 px-6 md:px-10 lg:px-24"
       aria-labelledby="learning-and-pricing-heading"
     >
       {/* Enhanced Heading & Intro */}

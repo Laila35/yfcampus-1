@@ -11,7 +11,7 @@ const Level1Tutors = ({ slice,context }) => {
         <section
             data-slice-type={slice.slice_type}
             data-slice-variation={slice.variation}
-            className="py-20 px-6 md:px-10 bg-gray-50/0"
+            className="py-8 px-6 md:px-10 bg-gray-50/0"
         >
          
                   <div className="max-w-6xl mx-auto text-center">

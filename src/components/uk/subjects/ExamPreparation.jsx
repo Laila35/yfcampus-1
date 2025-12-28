@@ -25,7 +25,7 @@ const exams = [
 
 const ExamPreparation = () => {
   return (
-    <section className="py-16 px-6 md:px-12  ">
+    <section className="py-10 px-4 md:px-8  ">
       {/* Heading */}
       <div className="text-center mb-12">
         <h2 className="text-3xl   font-semibold text-gray-900">

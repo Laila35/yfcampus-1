@@ -13,7 +13,7 @@ const LearnigOutcome = ({ slice }) => {
         <section
             data-slice-type={slice.slice_type}
             data-slice-variation={slice.variation}
-            className="py-20 px-4 sm:px-8 md:px-16 bg-white flex flex-col items-center"
+            className="py-8 px-4 sm:px-8 md:px-16 bg-white flex flex-col items-center"
         > 
             {/* Heading */}
             <h2 className="text-3xl font-bold text-center text-black mb-10 tracking-tight">

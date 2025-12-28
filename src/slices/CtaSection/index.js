@@ -13,7 +13,7 @@ const CtaSection = ({ slice }) => {
         <section
             data-slice-type={slice.slice_type}
             data-slice-variation={slice.variation}
-            className="relative py-16 sm:py-20 px-4 sm:px-6 lg:px-12 max-w-5xl mx-auto my-12"
+            className="relative py-0.5 sm:py-20 px-4 sm:px-6 lg:px-12 max-w-5xl mx-auto my-12"
         >
             {/* Content Box */}
             <div className="relative bg-teal-600 text-white overflow-hidden rounded-3xl p-6    ">

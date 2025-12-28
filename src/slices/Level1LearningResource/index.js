@@ -10,7 +10,7 @@ const Level1LearningResource = ({ slice }) => {
         <section
             data-slice-type={slice.slice_type}
             data-slice-variation={slice.variation}
-            className="py-16 px-6 md:px-10 mx-auto max-w-7xl"
+            className="py-6 px-6 md:px-10 mx-auto max-w-7xl"
         >
           
                   {/* Header */}

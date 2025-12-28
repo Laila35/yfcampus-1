@@ -19,7 +19,7 @@ const KeyStages = ({ slice }) => {
         <section
             data-slice-type={slice.slice_type}
             data-slice-variation={slice.variation}
-             className="py-16 bg-white"
+             className="py-6 bg-white"
         >
           
       <div className="max-w-6xl mx-auto px-6 text-center">

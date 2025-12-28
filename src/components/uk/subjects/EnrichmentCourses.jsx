@@ -21,7 +21,7 @@ const courses = [
 
 const EnrichmentCourses = () => {
   return (
-    <section className="py-12 px-6 md:px-12  ">
+    <section className="py-8 px-6 md:px-8  ">
       {/* Heading */}
       <div className="text-center mb-8">
         <h2 className="text-3xl   font-semibold ">

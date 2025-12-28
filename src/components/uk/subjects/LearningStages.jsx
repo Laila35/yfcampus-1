@@ -37,7 +37,7 @@ const stages = [
 
 const LearningStages = () => {
   return (
-    <section className="py-16 px-6 md:px-12 ">
+    <section className="py-4 px-4 md:px-4 ">
       {/* Section Heading */}
       <div className="text-center mb-14">
         <h2 className="text-3xl  font-semibold text-gray-900 ">

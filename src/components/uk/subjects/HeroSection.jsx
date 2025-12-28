@@ -50,7 +50,7 @@ const HeroSection = ({
   image = "/Images/subjects.webp",
 }) => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-12 lg:px-24 py-20 gap-12">
+    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-6 lg:px-4 py-5 gap-12">
       
       {/* Text Section */}
       <div className="flex flex-col justify-center md:w-1/2 text-center md:text-left space-y-6">
