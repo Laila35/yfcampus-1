@@ -10,10 +10,10 @@ const Level2HeroSection = ({ slice }) => {
         <section
             data-slice-type={slice.slice_type}
             data-slice-variation={slice.variation}
-            className="relative overflow-hidden bg-white pt-4 pb-12 lg:pt-6 lg:pb-16"
+            className="relative overflow-hidden bg-white pt-2 pb-12 lg:pt-6 lg:pb-16"
         >
              
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-6 lg:gap-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-5 lg:gap-8">
         
         {/* Text Section */}
         <div className="flex-1 text-center lg:text-left">
@@ -34,7 +34,7 @@ const Level2HeroSection = ({ slice }) => {
 
           <Link
             href={slice.primary.cta.url || "#"}
-            className="inline-block bg-teal-600 text-white font-semibold px-7 py-3 rounded-xl shadow-md hover:bg-teal-700 transition-all"
+            className="inline-block bg-teal-600 text-white font-semibold px-8 py-4 rounded-xl shadow-md hover:bg-teal-700 transition-all"
           >
             {slice.primary.cta.text}
           </Link>

@@ -40,7 +40,7 @@ const ToolsTeachingMethodsSection = () => {
   ];
 
   return (
-    <section className="bg-white py-12 px-6 md:px-12">
+    <section className="bg-white py-10 px-4 md:px-10">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">

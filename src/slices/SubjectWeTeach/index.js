@@ -15,9 +15,9 @@ const SubjectWeTeach = ({ slice }) => {
     <section
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="py-6 px-6 md:px-12  "
+      className="py-6 px-6 md:px-12   "
     >
-      <div className="max-w-5xl mx-auto text-center mb-12">
+      <div className="max-w-5xl mx-auto text-center mb-1">
         <h2 className="text-3xl  font-bold text-gray-900">
           Subjects We Teach
         </h2>

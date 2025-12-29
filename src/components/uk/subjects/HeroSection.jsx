@@ -27,19 +27,33 @@ const TypewriterTitle = ({ text, speed = 50 }) => {
     }
   }, [currentIndex, text, speed, hasAnimated]);
 
+  // Calculate half point for text color split
+  const halfIndex = Math.floor(text.length / 2);
+  const firstHalf = text.slice(0, halfIndex);
+  const secondHalf = text.slice(halfIndex);
+
   // Return full text if animation completed or if it's the initial render
   if (hasAnimated || currentIndex === text.length) {
     return (
-      <h1 className="text-3xl sm:text-4xl md:text-3xl lg:text-3xl font-bold text-gray-900 leading-tight tracking-tight">
-        {text}
+      <h1 className="text-3xl sm:text-4xl md:text-3xl lg:text-3xl font-bold leading-tight tracking-tight">
+        <span className="text-gray-900">{firstHalf}</span>
+        <span className="text-teal-600">{secondHalf}</span>
       </h1>
     );
   }
-
+  
+  // During animation - apply the same color split to the displayed portion
+  const animatedFirstHalf = displayText.slice(0, Math.min(halfIndex, displayText.length));
+  const animatedSecondHalf = displayText.slice(halfIndex);
+  
   return (
-    <h1 className="text-3xl sm:text-4xl md:text-3xl lg:text-3xl font-bold text-gray-900 leading-tight tracking-tight">
-      {displayText}
-      <span className="animate-pulse">|</span>
+    <h1 className="text-3xl sm:text-4xl md:text-3xl lg:text-3xl font-bold leading-tight tracking-tight">
+      <span className="text-gray-900">
+        {animatedFirstHalf}
+        {displayText.length > halfIndex ? "" : ""}
+      </span>
+      <span className="text-teal-600">{animatedSecondHalf}</span>
+      <span className="animate-pulse text-gray-900">|</span>
     </h1>
   );
 };
@@ -50,18 +64,19 @@ const HeroSection = ({
   image = "/Images/subjects.webp",
 }) => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-6 lg:px-4 py-5 gap-12">
+    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-6 lg:px-36 py-5 gap-5">
       
       {/* Text Section */}
       <div className="flex flex-col justify-center md:w-1/2 text-center md:text-left space-y-6">
-        {/* Animated Title */}
-        <TypewriterTitle text={title} speed={30} />
+        {/* Animated Title with Two-Color Effect */}
+        <div>
+          <TypewriterTitle text={title} speed={30} />
+        </div>
 
         {/* Description */}
         <p className="text-gray-600 leading-relaxed max-w-lg mx-auto md:mx-0">
           {desc}
         </p>
-
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start mt-6">
           <Link href="/uk/pricing">

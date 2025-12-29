@@ -13,7 +13,6 @@ const CoreTopic = ({ slice, context }) => {
     label: i.label,
     href: i.href,
   }));
-
   return (
     <section
       data-slice-type={slice.slice_type}
@@ -33,7 +32,6 @@ const CoreTopic = ({ slice, context }) => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-teal-400 to-emerald-400 rounded-full mx-auto"></div>
         </div>
-
         {/* Topics Grid */}
         <div
           className={`grid grid-cols-1 ${
@@ -59,7 +57,6 @@ const CoreTopic = ({ slice, context }) => {
           ))}
         </div>
       </div>
-
       {/* Enhanced Divider */}
       <div className="relative my-8 sm:my-12 lg:my-16">
         <div className="absolute inset-0 flex items-center">
@@ -71,7 +68,6 @@ const CoreTopic = ({ slice, context }) => {
           </span>
         </div>
       </div>
-
       {/* Year Pages Section */}
       <div className="mt-8 sm:mt-12 lg:mt-16">
         {/* Heading */}
@@ -84,7 +80,6 @@ const CoreTopic = ({ slice, context }) => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-teal-400 to-emerald-400 rounded-full mx-auto"></div>
         </div>
-
         {/* CENTERED Year Links Grid */}
         <div className="flex justify-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6 max-w-4xl w-full">
@@ -106,5 +101,4 @@ const CoreTopic = ({ slice, context }) => {
     </section>
   );
 };
-
 export default CoreTopic;
